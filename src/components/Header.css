@@ -1,0 +1,28 @@
+header {
+  height: 10vh;
+  overflow: hidden;
+  background-color: var(--primary2-color);
+  border-top:var(--highlight-color) solid 2px;
+  border-bottom:var(--highlight-color) solid 2px;
+}
+header span{
+    color: var(--highlight-color);
+}
+.title {
+  color: white;
+  padding: 1rem;
+  position: relative;
+  animation: animate-title 3s  1 forwards;
+}
+
+@keyframes animate-title {
+  0% {
+    color: var(--primary1-color);
+    position: relative;
+    left: 8vw;
+  }
+  100% {
+    position: relative;
+    left: 0vw;
+  }
+}

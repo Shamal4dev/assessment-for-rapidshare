@@ -1,0 +1,16 @@
+footer{
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    font-size: small;
+    background-color: var( --secondary-color);
+    color: var( --primary2-color);
+}
+footer span{
+    color: var(--highlight-color);
+    padding: 3px;
+}

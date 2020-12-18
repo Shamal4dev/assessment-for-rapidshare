@@ -1,0 +1,28 @@
+.card {
+  margin: 0.5rem;
+  height: 10vh;
+  width: 30vw;
+  min-width: 300px;
+  color: var(--primary2-color);
+  background-color: var(--card-color);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+.thumb-nail {
+  border: rgb(241, 148, 148) solid 1px;
+  background-color: var(--primary1-color);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.user-details{
+    padding: 1rem;
+}
+.name{
+    font-size: larger;
+    font-weight: bold;
+}
+.link{
+    text-decoration: 'none' ;
+}

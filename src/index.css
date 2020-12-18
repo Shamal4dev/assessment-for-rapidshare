@@ -1,0 +1,17 @@
+:root {
+  --primary1-color: rgb(241, 240, 240); 
+  --primary2-color: rgba(55, 59, 68, 0.925);
+  --secondary-color: rgb(186, 187, 187);
+  --highlight-color: rgb(182, 20, 8);
+  --card-color: rgb(223, 224, 224);
+  --font-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary1-color);
+}
